@@ -3,13 +3,28 @@ body{
     background-color: #eaeaea;
     color: #333;
 }
-
+.flex-container {
+    display: flex;
+    background-color: salmon;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 80px;
+    font-size: 19px;
+    border-radius: 17px;
+  }
 .container{
     width: 1060px;
     margin: auto;
     background-color: #fff;
 }
 
+.block {
+    max-width: 120px;
+    font-size: 12px !important 
+}
 .container2 table{
     width: 90%;
     font-size: 12px;
